@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=UnifrakturCook:wght@700&display=swap');
+
+:root {
+    --cor1: #fdffbf;
+    --cor2: #d4d5bc;
+    --cor3: #A8AA7A;
+    --cor4: #7E8046;
+    --cor5: #535521;
+    --cor6: #32330B;
+
+    --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
+    --fonte-destaque: 'UnifrakturCook', cursive;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+
+}
+
