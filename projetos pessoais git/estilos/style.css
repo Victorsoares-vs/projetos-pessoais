@@ -147,6 +147,21 @@ aside {
 
 }
 
+.autor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 1rem;
+}
+
+.perfil {
+    width: 280px;
+    height: 250px;
+    border-radius: 16px;
+
+}
+
 aside > h2 {
     background-color: var(--cor4);
     margin: -10px -10px 10px;
