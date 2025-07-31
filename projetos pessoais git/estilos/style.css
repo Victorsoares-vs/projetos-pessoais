@@ -33,6 +33,22 @@ header {
     
 }
 
+.img-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+    
+}
+
+.topo {
+    width:max-content;
+    height: auto;
+    
+    max-height: 100%;
+     
+}
+
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
@@ -138,6 +154,26 @@ article >p.return a:hover {
     text-decoration: underline;
 }
 
+div.video {
+    background-color: var(--cor6);
+    margin: 0px 0px 5px 0px;
+    padding: 20px;
+
+    position: relative;
+    padding-bottom: 57%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%; 
+
+}
+
+
+
 aside {
     background-color: var(--cor1);
     padding: 10px 10px 10px 10px;
@@ -174,6 +210,8 @@ aside > h2 {
 
 aside > p {
     text-align: justify;
+    text-indent: 30px;
+
     
 }
 
@@ -186,6 +224,26 @@ aside > ul {
 
 footer {
     background-color: var(--cor4);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    font-weight: bold;
+
+}
+
+footer > a {
+    color: var(--cor6);
+    text-decoration: none;
+    transition-duration: 0.2s;
+
+}
+
+footer > a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
+    background-color: var(--cor6);
+    padding: 5px;
+    border-radius: 5px;
 
 }
 
