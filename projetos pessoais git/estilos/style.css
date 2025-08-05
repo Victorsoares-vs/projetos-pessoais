@@ -34,18 +34,20 @@ header {
 }
 
 .img-topo {
+    background-image: url('../images/head-emb.png');
     display: flex;
     align-items: center;
     justify-content: center;
-    ;
+    
     
 }
 
 .topo {
     width:max-content;
     height: auto;
-    
     max-height: 100%;
+    margin-bottom: -4px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.164);
      
 }
 
