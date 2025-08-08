@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: var(--cor1);
+    background: var(--cor1) url('../images/wallpaper001.jpg') fixed;
     font-family: var(--fonte-padrao);
 
 }
